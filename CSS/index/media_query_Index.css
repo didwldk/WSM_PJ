@@ -1,0 +1,60 @@
+@media screen and (min-width:721px) {
+    .row-container > .indexMainimg{
+        width: 35em;
+        transition: 1s;
+    }
+    .row-container{
+        margin: 2em;
+    }
+    .btn_div{
+        margin: 4em;
+    }
+    .gotest {
+        padding: 1.8em 2.8em;
+        
+    }
+    .infor {
+        padding: 1.8em 2.8em;
+        
+    }
+}
+@media screen and (max-width:720px) {
+    .row-container > .indexMainimg{
+        width: 25em;
+        transition: 1s;
+    }
+    .row-container{
+        margin: 2em;
+    }
+    .btn_div{
+        margin: 3em;
+    }
+    .gotest {
+        padding: 1.6em 2.6em;
+        
+    }
+    .infor {
+        padding: 1.6em 2.6em;
+        
+    }
+    
+}
+/*모바일*/
+@media screen and (max-width:540px) {
+    .row-container > .indexMainimg{
+        width: 20em;
+    }
+    .row-container{
+        margin: 2em;
+    }
+    .btn_div{
+        margin: 2em;
+    }
+    .gotest {
+        padding: 1.2em 2.2em;
+    }
+    .infor {
+        padding: 1.2em 2.2em;
+    }
+    
+}

@@ -1,0 +1,79 @@
+/*메인 컬러
+https://colorhunt.co/palette/feff86b0daff19a7ce146c94
+
+*/
+*{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: #effdff;
+}
+header > .title{
+    display: fixed;
+    background-color: #146C94;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.6em;
+    color: #ffffff;
+    box-shadow: 0 1.6em 3.2em rgb(202, 234, 233);
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.indexMainimg{
+    background-color: #ffffff;
+    margin: auto;
+    display: block;
+    border-radius: 2em;
+    box-shadow: 0 1.6em 3.2em #ddd;
+
+}
+/*___________BUTTON_______________*/
+.btn_div{
+    text-align: center;
+}
+.gotest {
+    background: linear-gradient(0deg, rgba(254, 255, 134,1) 0%, rgb(252, 218, 94) 100%);
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow:  -0.4em -0.4em 0.6em 0 rgba(255,255,255,.5),
+                0.4em 0.4em 0.6em 0 rgba(116, 125, 136, .5), 
+      inset 0.4em 0.4em 0.6em 0 rgba(255,255,255,.2),
+      inset -0.4em -0.4em 0.6em 0 rgba(0, 0, 0, .4);
+  }
+  .gotest:before {
+    height: 0%;
+    width: 0.2em;
+  }
+  .gotest:hover {
+    box-shadow:  0.4em 0.4em 0.6em 0 rgba(255,255,255,.5),
+                -0.4em -0.4em 0.6em 0 rgba(116, 125, 136, .5), 
+      inset -0.4em -0.4em 0.6em 0 rgba(255,255,255,.2),
+      inset 0.4em 0.4em 0.6em 0 rgba(0, 0, 0, .4);
+  }
+  
+.infor {
+    background: linear-gradient(0deg, rgba(176, 218, 255,1) 0%, rgba(25, 167, 206, 1) 100%);
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.5em;
+
+    box-shadow:  -0.4em -0.4em 0.6em 0 rgba(255,255,255,.5),
+                0.4em 0.4em 0.6em 0 rgba(116, 125, 136, .5), 
+      inset 0.4em 0.4em 0.6em 0 rgba(255,255,255,.2),
+      inset -0.4em -0.4em 0.6em 0 rgba(0, 0, 0, .4);
+    
+  }
+  .infor:before {
+    height: 0%;
+    width: 0.2em;
+  }
+  .infor:hover {
+    box-shadow:  0.4em 0.4em 0.6em 0 rgba(255,255,255,.5),
+                -0.4em -0.4em 0.6em 0 rgba(116, 125, 136, .5), 
+      inset -0.4em -0.4em 0.6em 0 rgba(255,255,255,.2),
+      inset 0.4em 0.4em 0.6em 0 rgba(0, 0, 0, .4);
+  }
