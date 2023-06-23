@@ -1,6 +1,6 @@
 @media screen and (min-width:721px) {
     .row-container > .indexMainimg{
-        width: 33em;
+        width: 30em;
         transition: 1s;
     }
     .row-container{
