@@ -1,0 +1,20 @@
+.row{
+    margin-top: 6em;
+    transition: 1s;
+}
+body{
+    background-color: #EEEEEE;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+footer{
+    height: 8em;
+    background-color: #c2cada;
+}
+img{
+    display: inline-block;
+}
+#faintly{
+    opacity: 0.4;
+}

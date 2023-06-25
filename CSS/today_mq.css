@@ -1,0 +1,77 @@
+/*데스크탑*/
+.present p{
+    font-size: 2em;
+    transition: 1s;
+    z-index: 1;
+}
+.present .histroy1{
+    transition: 1s;
+    z-index: 1;
+}
+.histroy1{
+    width: 20em;
+    transition: 1s;
+    z-index: 1;
+}
+.histroy2{
+    width: 15em;
+    transition: 1s;
+    z-index: 1;
+}
+.Chanel{
+    text-align: right;
+    font-size: 2em;
+    transition: 1s;
+    z-index: 1;
+}
+
+/*타블렛*/
+@media screen and (max-width:768px){
+    .present  p{
+        font-size: 1.5em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .histroy1{
+        width: 17em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .histroy2{
+        width: 16em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .Chanel{
+        font-size: 1.5em;
+        transition: 1s;
+        text-align: right;
+        z-index: 1;
+    }
+}
+
+/*모바일*/
+@media screen and (max-width:576px){
+    .present  p{
+        font-size: 1.2em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .histroy1{
+        width: 15em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .histroy2{
+        width: 15em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .Chanel{
+        font-size: 1.2em;
+        transition: 1s;
+        text-align: right;
+        z-index: 1;
+    }
+
+}
