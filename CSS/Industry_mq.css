@@ -1,10 +1,10 @@
 /*데스크탑*/
-.perfumeht p{
+.setting p{
     font-size: 2em;
     transition: 1s;
-    z-index: 1;s
+    z-index: 1;
 }
-.perfumeht .histroy1{
+.setting .histroy1{
     transition: 1s;
     z-index: 1;
 }
@@ -18,18 +18,8 @@
     transition: 1s;
     z-index: 1;
 }
-.indus{
+.develop{
     text-align: right;
-    font-size: 2em;
-    transition: 1s;
-    z-index: 1;
-}
-.histroy3{
-    width: 15em;
-    transition: 1s;
-    z-index: 1;
-}
-.timeworn{
     font-size: 2em;
     transition: 1s;
     z-index: 1;
@@ -37,12 +27,12 @@
 
 /*타블렛*/
 @media screen and (max-width:768px){
-    .perfumeht  p{
+    .setting  p{
         font-size: 1.5em;
         transition: 1s;
         z-index: 1;
     }
-    .histroy1{
+    .setting{
         width: 35em;
         transition: 1s;
         z-index: 1;
@@ -52,27 +42,16 @@
         transition: 1s;
         z-index: 1;
     }
-    .indus{
+    .develop{
         font-size: 1.5em;
         transition: 1s;
         text-align: right;
         z-index: 1;
     }
-    .histroy3{
-        width: 23em;
-        transition: 1s;
-        z-index: 1;
-    }
-    .timeworn{
-        font-size: 1.5em;
-        transition: 1s;
-        z-index: 1;
-    }
-}
 
 /*모바일*/
 @media screen and (max-width:576px){
-    .perfumeht  p{
+    .setting  p{
         font-size: 1.2em;
         transition: 1s;
         z-index: 1;
@@ -87,20 +66,10 @@
         transition: 1s;
         z-index: 1;
     }
-    .indus{
+    .develop{
         font-size: 1.2em;
         transition: 1s;
         text-align: right;
-        z-index: 1;
-    }
-    .histroy3{
-        width: 20em;
-        transition: 1s;
-        z-index: 1;
-    }
-    .timeworn{
-        font-size: 1.2em;
-        transition: 1s;
         z-index: 1;
     }
 
