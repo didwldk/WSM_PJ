@@ -1,5 +1,5 @@
 /*데스크탑*/
-.perfumeht  p{
+.perfumeht p{
     font-size: 2em;
     transition: 1s;
     z-index: 1;s
@@ -13,8 +13,23 @@
     transition: 1s;
     z-index: 1;
 }
-.industry{
+.histroy2{
+    width: 15em;
+    transition: 1s;
+    z-index: 1;
+}
+.indus{
     text-align: right;
+    font-size: 2em;
+    transition: 1s;
+    z-index: 1;
+}
+.histroy3{
+    width: 15em;
+    transition: 1s;
+    z-index: 1;
+}
+.timeworn{
     font-size: 2em;
     transition: 1s;
     z-index: 1;
@@ -32,10 +47,25 @@
         transition: 1s;
         z-index: 1;
     }
-    .industry{
+    .histroy2{
+        width: 25em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .indus{
         font-size: 1.5em;
         transition: 1s;
         text-align: right;
+        z-index: 1;
+    }
+    .histroy3{
+        width: 23em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .timeworn{
+        font-size: 1.5em;
+        transition: 1s;
         z-index: 1;
     }
 }
@@ -52,10 +82,25 @@
         transition: 1s;
         z-index: 1;
     }
-    .industry{
+    .histroy2{
+        width: 20em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .indus{
         font-size: 1.2em;
         transition: 1s;
         text-align: right;
+        z-index: 1;
+    }
+    .histroy3{
+        width: 20em;
+        transition: 1s;
+        z-index: 1;
+    }
+    .timeworn{
+        font-size: 1.2em;
+        transition: 1s;
         z-index: 1;
     }
 
