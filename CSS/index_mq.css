@@ -1,0 +1,47 @@
+/*데스크탑*/
+.text1{
+    margin: 8em;
+}
+.text1 > .proma{
+    font-size: 2.2em;
+    transition: 1s;
+}
+.text1 > .content{
+    font-size: 1.6em;
+    transition: 1s;
+}
+
+/*타블렛*/
+@media screen and (max-width:768px){
+    .text1{
+        margin: 6em;
+    }
+    .text1 > .proma{
+        font-size: 1.8em;
+        transition: 1s;
+    }
+    .text1 > .content{
+        font-size: 1.5em;
+        transition: 1s;
+    }
+}
+
+/*모바일*/
+@media screen and (max-width:576px){
+    .text1{
+        margin: 4em;
+    }
+    .text1 > .proma{
+        font-size: 1.5em;
+        transition: 1s;
+    }
+    .text1 > .content{
+        font-size: 1em;
+        transition: 1s;
+    }
+    .show-menu{
+        height: 172px;
+
+    }
+
+}

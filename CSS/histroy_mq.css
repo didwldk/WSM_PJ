@@ -1,0 +1,52 @@
+/*데스크탑*/
+.perfumeht  p{
+    font-size: 2em;
+    transition: 1s;
+}
+.perfumeht .histroy1{
+    transition: 1s;
+}
+.histroy1{
+    width: 35em;
+    transition: 1s;
+}
+.industry{
+    text-align: right;
+    font-size: 2em;
+    transition: 1s;
+}
+
+/*타블렛*/
+@media screen and (max-width:768px){
+    .perfumeht  p{
+        font-size: 1.5em;
+        transition: 1s;
+    }
+    .histroy1{
+        width: 35em;
+        transition: 1s;
+    }
+    .industry{
+        font-size: 1.5em;
+        transition: 1s;
+        text-align: right;
+    }
+}
+
+/*모바일*/
+@media screen and (max-width:576px){
+    .perfumeht  p{
+        font-size: 1.2em;
+        transition: 1s;
+    }
+    .histroy1{
+        width: 30em;
+        transition: 1s;
+    }
+    .industry{
+        font-size: 1.2em;
+        transition: 1s;
+        text-align: right;
+    }
+
+}
