@@ -2,25 +2,46 @@
 .text1{
     margin: 8em;
 }
-.text1 > .proma{
-    font-size: 2.2em;
+.text1 > .title{
+    font-size: 2.4em;
     transition: 1s;
 }
 .text1 > .content{
     font-size: 1.6em;
     transition: 1s;
 }
-
+.text2{
+    margin: 8em;
+}
+.text2 > .title{
+    font-size: 2.2em;
+    transition: 1s;
+}
+.text2 > .content{
+    font-size: 1.6em;
+    transition: 1s;
+}
 /*타블렛*/
 @media screen and (max-width:768px){
     .text1{
         margin: 6em;
     }
-    .text1 > .proma{
-        font-size: 1.8em;
+    .text1 > .title{
+        font-size: 2em;
         transition: 1s;
     }
     .text1 > .content{
+        font-size: 1.5em;
+        transition: 1s;
+    }
+    .text2{
+        margin: 6em;
+    }
+    .text2 > .title{
+        font-size: 1.8em;
+        transition: 1s;
+    }
+    .text2 > .content{
         font-size: 1.5em;
         transition: 1s;
     }
@@ -28,10 +49,14 @@
 
 /*모바일*/
 @media screen and (max-width:576px){
+    .show-menu{
+        height: 172px;
+
+    }
     .text1{
         margin: 4em;
     }
-    .text1 > .proma{
+    .text1 > .title{
         font-size: 1.5em;
         transition: 1s;
     }
@@ -39,9 +64,16 @@
         font-size: 1em;
         transition: 1s;
     }
-    .show-menu{
-        height: 172px;
-
+    .text2{
+        margin: 4em;
+    }
+    .text2 > .title{
+        font-size: 1.3em;
+        transition: 1s;
+    }
+    .text2 > .content{
+        font-size: 1em;
+        transition: 1s;
     }
 
 }
