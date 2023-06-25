@@ -34,6 +34,7 @@ header{
     background-color: var(--first-color);
     position: sticky;
     top: 0;
+    z-index: 3;
     
 }
 nav{
